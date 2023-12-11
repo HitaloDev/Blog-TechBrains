@@ -1,0 +1,52 @@
+.btn {
+    display: inline-block;
+
+    color: var(--white-light);
+
+    padding: 8px 24px;
+
+    border-radius: 4px;
+    background: linear-gradient(225deg, #5390E3 8.12%, #1357B3 92.21%);
+
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-light);
+    transition: .3s ease;
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+input, select, option, textarea {
+    padding: 11px 12px;
+    background-color: var(--black-light);
+
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+
+    color: var(--white-light);
+
+    outline: none;
+}
+
+.btn-search {
+    cursor: pointer;
+    height: 42px;
+    width: 56px;
+
+    background-image: url(../svg/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-color: var(--black-light);
+
+    transform: translate3d(-6px,0,0);
+
+    border: none;
+    border-radius: 4px;
+}

@@ -1,0 +1,37 @@
+@import url(./header.css);
+@import url(./colors.css);
+@import url(./buttons.css);
+@import url(./typography.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: var(--black-dark);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justify-center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-align-items {
+    display: flex;
+    align-items: center;
+}
+
+.flex-start-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
