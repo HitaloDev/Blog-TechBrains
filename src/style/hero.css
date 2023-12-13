@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero span {
+    color: var(--blue-dark);
+}
+
+.hero h1 {
+    margin-bottom: 5px;
+}
+
+.hero p {
+    width: 400px;
+    margin-bottom: 35px;
+}
+
+.logo_hero {
+    width: 400px;
+}
