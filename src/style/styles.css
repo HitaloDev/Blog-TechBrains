@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import url(./header.css);
 @import url(./hero.css);
 @import url(./colors.css);
 @import url(./buttons.css);
 @import url(./typography.css);
+@import url(./posts.css);
+
 
 * {
     margin: 0;
@@ -20,9 +24,20 @@ html {
 
     max-width: 1280px;
 
-    padding: 128px 0;
 
+    padding: 128px 0;
     /* border: 1px solid red; */
+}
+
+.container2 {
+    margin: 0 auto;
+
+    max-width: 1280px;
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
 }
 
 .flex {

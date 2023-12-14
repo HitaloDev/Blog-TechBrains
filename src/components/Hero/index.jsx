@@ -3,7 +3,7 @@ import logo from '../../img/logo icon PNG.png';
 const Hero = () => {
 
     return (
-        <section className="container flex-space-between">
+        <section className="container2 flex-space-between">
                 <div className='hero'>
                     <h1>tech<span>brains</span></h1>
                     <p>

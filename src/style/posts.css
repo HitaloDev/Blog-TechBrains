@@ -1,0 +1,87 @@
+main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.best-posts {
+
+    max-width: 600px;
+
+    margin-right: 50px;
+    
+    img {
+        margin-bottom: 20px;
+        width: 148px;
+    }
+
+    h2 {
+        font-size: 64px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    p {
+        max-width: 520px;
+        line-height: 28px;
+    }
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.foto-profile img{
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid var(--blue-dark);
+    margin-right: 15px;
+}
+
+.profile-infos {
+
+    h6 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: var(--blue-dark);
+        font-weight: 600;
+        
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.post-infos {
+    .data {
+        color: var(--gray-6);
+
+        letter-spacing: 4px;
+
+        margin-bottom: 10px;
+    }
+
+    .tema {
+        color: var(--blue-light);
+
+        letter-spacing: 2px;
+        font-size: 22px;
+
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        margin-bottom: 15px;
+    }
+
+    .descricao {
+        margin-bottom: 35px;
+    }
+}
+
+.line-bottom {
+    margin-bottom: 35px;
+    border-bottom: 1px solid var(--black-light);
+}
